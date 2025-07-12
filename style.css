@@ -1,0 +1,169 @@
+*{
+    max-width:1920px;
+    margin: 0 auto;
+}
+
+
+/* font start.....
+.................. */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.inter-2nd {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* font closed............ */
+
+
+
+/* nav section .......
+...................... */
+nav{
+    display: flex;
+    justify-content:space-between;
+    max-width: 1320px;
+    height: 58px;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-top: 49px;
+}
+
+
+.panda-logo-container .panda-logo{
+    width: 159px;
+    height:40px;
+    /* border: 2px solid brown; */
+}
+
+
+.search-container .search-bar{
+    width:420px;
+    height: 25px;
+    border-radius: 66px;
+    background-color:#F1F1F1;
+    padding: 12px 12px;   
+    border: none;
+    font-size: 17px;
+
+}
+
+.search-container .fa-solid{
+    position: relative;
+    left:-50px;
+    color: #BABABA;
+}
+
+
+.nav-home-item{
+    width: 378px;
+    height: 24px;
+    /* border: 3px solid blue; */
+    
+}
+.nav-home-item ul{
+    display: flex;
+    gap:30px;
+    list-style: none;   
+}
+
+.nav-home-item ul li a{
+    text-decoration: none;
+    color:#707070;
+    font-size: 16px;
+    font-weight:500px;
+}
+
+/* nav section clsoed........... 
+.................................*/
+
+.hero-section{
+    display: flex;
+    max-width:1370px;
+    max-height: 455px;
+    background-color:#FEEAE9;
+    border-radius: 6px;
+    margin-top:63px;
+
+}
+
+.hero-title-container{
+    width: 560px;
+    height: 319px;
+    margin-top:40px;
+    margin-left:50px;
+    /* border: 2px solid red; */
+}
+
+.hero-section .hero-title-container .hero-title{
+    color:#1F1F1F;
+    font-size:56px;
+    font-weight: bold;
+    width: 560px;
+    height: 84px;
+
+}
+
+
+.passage-container{
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.hero-sub-title{
+    max-width: 456px;
+    height: 77px;
+    font-size: 16px;
+    line-height:21px;
+    color: #4E4E4E;
+}
+
+.hero-money{
+    font-size:41px;
+    font-weight: 500px;
+    width: 117px;
+    height: 62px;
+    color: #FF136F;
+    
+}
+
+.money-container{
+    /* border: 2px solid red; */
+    display:inline-block;
+}
+
+.hero-image-container .hero-image{
+    width: 402px;
+    height: 378px;
+    margin-top: 30px;
+}
+
+.buy-btn{
+    /* border: 2px solid blue; */
+    background: linear-gradient(to right,#FF136F 100%, #ff3c8a 0%);
+    border-radius: 6px;
+    padding: 15px 10px;
+    width: 168px;
+    height: 52px;
+    font-size:16px;
+    font-weight: 500px;
+    padding:5px;
+    border: none;
+    margin-top: 15px;
+    
+}
+
+/* hero section closed,.................. */
+
+/* categories section start.......
+.................................... */
+
+.categories-section{
+    max-width: 1150px;
+    height: 198px;
+    border: 2px solid red;
+    margin-top:64px;
+}
