@@ -31,10 +31,17 @@
 
             <div class="nav-home-item poppins-thin">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a class="nav-list" href="">Home</a></li>
+                    <li>
+                        <a class="nav-list" href="">
+                            Product 
+                            <i class="fa-solid fa-angle-down">
+
+                        </i>
+                    </a>
+                </li>
+                    <li><a class="nav-list" href="">About Us</a></li>
+                    <li><a class="nav-list" href="">Contact</a></li>
                     
                 </ul>
             </div>
@@ -88,7 +95,7 @@
             <div class="bag-card">
 
                 <div class="categories-card-inside">
-                    <h3 class="card-inside-text poppins-thin">Bag</h3>
+                    <h3 class="card-inside-text poppins-thin" id="bag-b"><a href="#bag-b"></a>Bag</h3>
                     </div>
 
                     <img src="./images/image/categories/bag.png" alt="" class="card-image">
@@ -97,7 +104,7 @@
             <div class=" shoes-card ">
 
                 <div class="categories-card-inside">
-                    <h3 class="card-inside-text poppins-thin">Shoes</h3>
+                    <h3 class="card-inside-text poppins-thin"><a href="#shoe">Shoes</a></h3>
                     </div>
 
                     <img src="./images/image/categories/shoes.png" alt="" class="card-image">
@@ -121,7 +128,7 @@
 
             <!-- first shoe start -->
             <sectoin class="shoes-card-container">
-                <div class="card-box">
+                <div class="card-box" id="shoe">
                     <img src="./images/image/shoes/shoe-1.png" alt="" class="card-box-image">
 
                     <h2 class="shoe-name poppins-thin">Reebok Dart Men's Shoes</h2>
@@ -264,5 +271,13 @@
 
         </section>
     </footer>
+
+
+
+
+
+
+
+    
 </body>
 </html>
