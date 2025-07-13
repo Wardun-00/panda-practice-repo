@@ -263,8 +263,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
-    width: 1125px;
+    /* border: 2px solid red; */
+    width: 1320px;
     height:54px;
     margin:0 auto;
 }
@@ -285,4 +285,126 @@ nav{
     font-weight: 400;
     color:#FF9D00;
     text-decoration: none;
+}
+
+/* categories item complete..... */
+
+
+/* full body section start */
+.second-section-container{
+    max-width: 1450px;
+    height: 1380px;
+    background-color: #F4F4F4;
+    margin:0 auto ;
+
+}
+
+/* full body section closed */
+
+
+
+/* shoes item start .....
+.............................*/
+
+.shoes-card-main-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    /* position: relative;
+    left:280px; */
+   
+    
+}
+
+.shoes-card-container{
+    display: flex;
+    gap:60px;
+    margin-left: 52px;
+    margin-top: 20px;
+     
+}
+
+
+.card-box{
+   width: 320px;
+   height: 480px;
+   padding: 24px 24px;
+   border-radius: 20px;
+   color: white;
+   background-color:white;
+   /* border: 2px solid red; */
+   
+}
+
+.card-box-image{
+    width: 336px;
+    height: 205px;
+
+}
+
+.shoe-name{
+    width:300px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 500;
+    color:#1F1F1F;
+    
+}
+
+.shoe-passage{
+    font-size: 16px;
+    width: 306px;
+    height: 52px;
+    line-height: 26px;
+    color: #4E4E4E;
+    text-align: center;
+    margin-top: -15px;
+
+}
+
+.shoe-price{
+    font-size: 24px;
+    font-weight: 450;
+    color: #000000;
+    width: 69px;
+    height: 36px;
+    margin-left:125px;
+    margin-top:5px;
+
+}
+
+.card-box-button{
+    background-color: #000000;
+    color: white;
+    width: 168px;
+    height: 52px;
+    padding:15px 24px;
+    border-radius: 6px;
+    font-size:16px;
+    margin-left: 80px;
+}
+
+/* second shoe................................*/
+.second-shoe-name {
+    text-align: center;
+}
+
+.second-shoe-passage{
+    /* color: red; */
+    margin-top: -15px;
+}
+
+/* shoe complete.............*/
+
+/* bag start...................
+.................................. */
+.bag-image{
+    width: 230px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.bag-container-box{
+    margin-top:65px;
 }
